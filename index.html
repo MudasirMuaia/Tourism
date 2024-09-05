@@ -1,34 +1,121 @@
 <!DOCTYPE html>
-<!-- saved from url=(0031)http://127.0.0.1:5500/home.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourism</title>
+    <link rel="icon" href="./download (15).jpeg">
     
+</head>
+<body style="background-image:url('./sindh-nxt.jpg');background-repeat:no-repeat;background-size:cover">
+    <style>
+        .image-container img {
+    display: block;
+    width: 80%;
+    height: 50%; position: relative;
+    display: inline-block;
+}
+a{
+    font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color:black;
+}
+
+        body {
+            font-family:gabriola;
+            margin: 0;
+            padding: 20;
+            box-sizing: border-box;
+            
+        }
+        header {
+            
+            color: rgb(252, 246, 246);
+            padding: 20px 0;
+            text-align: center;
+            font-size: 50px;
+            
+        }
+        .hero {
+            
+            color:white;
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('/download (14).jpeg');
+            
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+          
+        }
+        .features, .destinations {
+           
+             justify-content: space-around;
+            flex-wrap: wrap;
+            display: flex;
+             border: 50px;
+        }
+        .feature, .destination {
+            background: #2ba3a370;
+            border: 50px;
+            
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            text-align: center;
+        }
+        .feature h3, .destination h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #1b423dec;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+    </style>
+    <img src=".//flower.jpg"style="width:50px;height: 50px;">
     
-<link rel="stylesheet" href="./Tourism_files/fontstyle.css"></head>
-<body>
     <header>
-        <h1>Tourism</h1>
+        <h1 class="fontstyle">Tourism</h1>
     </header>
+    
+
+   
 
     <section class="hero">
-        <h1>Discover Your Next Adventure</h1>
-        <p>Explore beautiful destinations and create unforgettable memories.</p>
+        <h1></h1>
+        <p></p>
     </section>
 
     <div class="container">
         <section class="features">
             <div class="feature">
-                <h3>Home</h3>
+                <a href="./index.html">Home</a>
                 
             </div>
             <div class="feature">
-                <h3>About Tourism</h3>
+                <a href="./about.html">About</a>
                 <p></p>
             </div>
             <div class="feature">
-                <h3>Adventure Tours</h3>
+                <a href="./photogallry.html">memories</a>
+                <p></p>
+            </div>
+            <div class="feature">
+                <a href="./ContactUs.html">ContactUs</a>
+                <p></p>
+            </div>
+            <div class="feature">
+                <a href="./list.html">TourismList</a>
                 <p></p>
             </div>
         </section>
@@ -37,7 +124,7 @@
             <div class="destination">
                 <h3>Paris</h3>
                 <p>Explore the city of lights with its stunning architecture and rich history.</p>
-            </div>
+            </div> 
             <div class="destination">
                 <h3>Tokyo</h3>
                 <p>Discover the vibrant culture and cutting-edge technology of Japan's capital.</p>
@@ -48,48 +135,10 @@
             </div>
         </section>
     </div>
+    
 
     <footer>
-        <p>© 2024 Tourism. All rights reserved.</p>
+        <p>&copy; 2024 Tourism. All rights reserved.</p>
     </footer>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-
-
-</body></html>
+</body>
+</html>

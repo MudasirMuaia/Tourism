@@ -1,0 +1,33 @@
+.fontstyle{
+    font-size: 60px;text-align: center;
+}
+.fontstyle1{
+    font-size: 20px;text-align:left;
+}
+.fontfamily{
+    font-family:cooper;
+    color: white;text-align: center;
+}
+.fontcolore{
+    color:black;
+}
+.backgroundcolore{
+    background-color: rgb(255, 0, 55);
+}
+pre{
+    color:rgb(0, 255, 85);text-shadow: calc(1);font-family:gabriola
+    ;font-size: 40px;
+}
+/* home.css */
+        /* about.css */
+        
+        
+        /* photogallry.css */
+        
+       
+        /* contactus.css */
+         
+        
+       
+      
+    

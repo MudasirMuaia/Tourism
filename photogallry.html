@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories - Tourism</title>
+   <link  rel="stylesheet" href="./fontstyle.css">
+   <link rel="icon" href="./download (15).jpeg">
+</head>
+<body>
+    <style>
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+        }
+        header {
+            background: #3f3996;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .featured-memories {
+            margin-top: 40px;
+        }
+        .memory {
+            margin-bottom: 40px;
+        }
+        .memory img {
+            float: left;
+            margin-right: 20px;
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .memory:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .memory h3 {
+            margin-top: 0;
+            color: #444;
+        }
+        .memory p {
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+    </style>
+    <header>
+        <img src=".//flower.jpg"style="width:60px;height: 60px;float: left;">
+        <h1 class="fontfamily">Memories</h1>
+    </header>
+    <div class="fontfamily">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./photogallry.html">memories</a>
+        <a href="./ContactUs.html">ContactUs</a>
+        <a href="./list.html">TourismList</a>
+    </div>
+
+    <div class="container">
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="./download (3).jpeg" alt="Memory 1">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (9).jpeg" alt="Memory 2">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (2).jpeg" alt="Memory 3">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (1).jpeg" alt="Memory 4">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (5).jpeg" alt="Memory 5">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (6).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (7).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (11).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (12).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (13).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (14).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (15).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (16).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (17).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (18).jpeg" alt="Memory 6">
+                
+            </div>
+             <div class="gallery-item">
+                <img src="./download (19).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (20).jpeg" alt="Memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="./download (19).jpeg" alt="Memory 6">
+            </div>
+        </section>
+
+        <section class="featured-memories">
+            <h2>Featured Memories</h2>
+            <div class="memory">
+                <img src="./images (4).jpeg" alt="Featured Memory 1">
+                <h3>A Day in Paris</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ullamcorper turpis. Vivamus vestibulum, odio vel convallis sodales, urna ex vehicula ipsum, in gravida justo quam at velit.</p>
+            </div>
+            <div class="memory">
+                <img src="./images (3).jpeg" alt="Featured Memory 2">
+                <h3>Hiking the Islamabad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ullamcorper turpis. Vivamus vestibulum, odio vel convallis sodales, urna ex vehicula ipsum, in gravida justo quam at velit.</p>
+            </div>
+            <div class="memory">
+                <img src="./images (2).jpeg" alt="Featured Memory 3">
+                <h3>Exploring Kashmir</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ullamcorper turpis. Vivamus vestibulum, odio vel convallis sodales, urna ex vehicula ipsum, in gravida justo quam at velit.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
